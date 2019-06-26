@@ -1,6 +1,6 @@
 ---
 marp: true
-title: Marp CLI example
+title: Marp CLI exampleX
 description: Hosting Marp slide deck on the web
 theme: uncover
 paginate: true
