@@ -2,7 +2,7 @@
 marp: true
 title: Marp CLI exampleX
 description: Hosting Marp slide deck on the web
-theme: uncover
+theme: gaia
 paginate: true
 
 _paginate: false
@@ -19,7 +19,9 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
+
 ![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+
 
 ---
 ```python
@@ -40,6 +42,8 @@ class AmazingDS:
 
 <!--
 _backgroundColor: #123
+
+
 
 
 _color: #fff
@@ -90,7 +94,7 @@ now
 
 <style scoped>
 h3 {
-  text-shadow: 0 0 30px #fff;
+  text-shadow: 0 0 30px #232548;
 }
 </style>
 
