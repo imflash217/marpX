@@ -1,5 +1,10 @@
 ---
-theme: flashSlides
+<style>
+section{
+    background: yellow;
+}
+</style>
+
 ---
 
 # ![](images/marp.png)
