@@ -1,6 +1,5 @@
 ---
-theme: additional
-_class: title
+theme: flashSlides
 ---
 
 # ![](images/marp.png)
