@@ -11,44 +11,40 @@ Marp
 
 # Features
 
-- **Slides are written in Markdown.**
-- - Cross-platform. Supports Windows, Mac, and Linux
-- - Live Preview with 3 modes
-- - Slide themes (`default`, `gaia`) and custom background images
-- - Supports emoji :heart:
-- - Render maths in your slides
-- - Export your slides to PDF
--
-- ---
--
-- # How to write slides?
--
-- Split slides by horizontal ruler `---`. It's very simple.
--
-- ```md
-- # Slide 1
--
-- foobar
--
-- ---
--
-- # Slide 2
--
-- foobar
-- `````
+**Slides are written in Markdown.**
+- Cross-platform. Supports Windows, Mac, and Linux
+- Live Preview with 3 modes
+- Slide themes (`default`, `gaia`) and custom background images
+- Supports emoji :heart:
+- Render maths in your slides
+- Export your slides to PDF
 
-> *Notice: Ruler (`<hr>`) is not displayed in Marp.*
->
-> ---
->
-> # Directives
->
-> Marp's Markdown has extended directives to affect slides.
->
-> Insert HTML comment as below:
-> ```html
-> <!-- {directive_name}: {value} -->
-> `````
+---
+
+# How to write slides?
+Split slides by horizontal ruler `---`. It's very simple.
+
+```md
+# Slide 1
+foobar
+
+---
+
+# Slide 2
+foobar
+
+*Notice: Ruler (`<hr>`) is not displayed in Marp.*
+
+---
+
+# Directives
+Marp's Markdown has extended directives to affect slides.
+
+Insert HTML comment as below:
+
+```html
+<!-- {directive_name}: {value} -->
+```
 
 ```html
 <!--
@@ -56,10 +52,11 @@ Marp
 {second_directive_name}: {value}
 ...
 -->
-`````
+```
 ---
 
 ## Global Directives
+
 
 ### `$theme`
 
