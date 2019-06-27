@@ -1,15 +1,16 @@
-Marp
-
-<!-- $size: 30:10 -->
-<!-- $theme: gaia -->
-===
+---
+theme: additional
+_class: title
+---
 
 # ![](images/marp.png)
 
 
 
 
+
 ##### Markdown presentation writer, powered by [Electron](http://electron.atom.io/)
+
 
 
 ###### Created by Yuki Hattori ( [@yhatt](https://github.com/yhatt)  )
@@ -105,7 +106,7 @@ You can use units: `px` (default), `cm`, `mm`, `in`, `pt`, and `pc`.
 
 ```html
 <!-- $width: 12in -->
-`````
+```
 
 ### `$size`
 
@@ -115,7 +116,7 @@ Presets: `4:3`, `16:9`, `A0`-`A8`, `B0`-`B8` and suffix of `-portrait`.
 
 ```html
 <!-- $size: 16:9 -->
-`````
+```
 
 <!--
 $size: a4
@@ -137,7 +138,7 @@ Set `true` to show page number on slides. *See lower right!*
 
 ```html
 <!-- page_number: true -->
-`````
+```
 
 <!--
 page_number: true
@@ -159,9 +160,9 @@ The `template` directive just enables that using theme supports templates.
 $theme: gaia
 template: invert
 -->
+```
 
 Example: Set "invert" template of Gaia theme.
-`````
 
 ---
 
@@ -171,7 +172,7 @@ Add a footer to the current slide and all of the following slides
 
 ```html
 <!-- footer: This is a footer -->
-`````
+```
 
 Example: Adds "This is a footer" in the bottom of each slide
 
@@ -183,7 +184,7 @@ Pre-renders a slide, which can prevent issues with very large background images.
 
 ```html
 <!-- prerender: true -->
-`````
+```
 
 ---
 
@@ -213,33 +214,27 @@ You can set an image as a slide background.
 
 ```html
 ![bg](mybackground.png)
-`````
+```
 
 Options can be provided after `bg`, for example `![bg original](path)`.
 
 Options include:
 
 - `original` to include the image without any effects
-- - `x%` to include the  image at `x` percent of the slide size
--
+- `x%` to include the  image at `x` percent of the slide size
 - Include multiple`![bg](path)` tags to stack background images horizontally.
--
-- ![bg](images/background.png)
--
-- ---
--
-- #### Maths Typesetting
--
-- Mathematics is typeset using the `KaTeX` package. Use `$` for inline maths, such as $ax^2+bc+c$, and `$$` for block maths:
--
-- $$I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx$$
--
-- ```html
-- This is inline: $ax^2+bx+c$, and this is block:
--
-- $$I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx$$
--
-- `````
+![bg](images/background.png)
+---
+
+#### Maths Typesetting
+Mathematics is typeset using the `KaTeX` package. Use `$` for inline maths, such as $ax^2+bc+c$, and `$$` for block maths:
+$$I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx$$
+
+```html
+
+This is inline: $ax^2+bx+c$, and this is block:
+$$I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx$$
+
 
 ---
 
@@ -249,19 +244,3 @@ Options include:
 
 Copyright &copy; 2016 [Yuki Hattori](https://github.com/yhatt)
 This software released under the [MIT License](https://github.com/yhatt/marp/blob/master/LICENSE).
-
-- ````
-````
-```
-```
-````
-````
-````
-````
-````
-````
-```
-```
-````
-> ````
-- ````
