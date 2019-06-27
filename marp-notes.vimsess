@@ -8,8 +8,8 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 PITCHME.md
-badd +0 theme.css
+badd +1 PITCHME.md
+badd +1 theme.css
 argglobal
 silent! argdel *
 argadd PITCHME.md
@@ -50,11 +50,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 18) / 36)
+let s:l = 3 - ((2 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
+3
 normal! 0
 tabnext 2
 if exists('s:wipebuf')
