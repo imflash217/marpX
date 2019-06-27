@@ -1,16 +1,25 @@
 Marp
+
+<!-- $theme: gaia -->
 ===
 
 # ![](images/marp.png)
 
 
+
+
 ##### Markdown presentation writer, powered by [Electron](http://electron.atom.io/)
 
+
 ###### Created by Yuki Hattori ( [@yhatt](https://github.com/yhatt)  )
+
+
 
 ---
 
 # Features
+
+
 
 **Slides are written in Markdown.**
 - Cross-platform. Supports Windows, Mac, and Linux
@@ -20,10 +29,13 @@ Marp
 - Render maths in your slides
 - Export your slides to PDF
 
+
 ---
 
 
+
 # How to write slides?
+
 
 Split slides by horizontal ruler `---`. It's very simple.
 
@@ -34,14 +46,21 @@ foobar
 
 ---
 
+
+
 # Slide 2
+
 foobar
 
-*Notice: Ruler (`<hr>`) is not displayed in Marp.*
+**Notice: Ruler (`<hr>`) is not displayed in Marp.**
+
 
 ---
 
+
 # Directives
+
+
 Marp's Markdown has extended directives to affect slides.
 
 Insert HTML comment as below:
@@ -74,7 +93,6 @@ Changes the theme of all the slides in the deck. You can also change from `View 
 |:-:|:-:|:-|
 |***Default***|default|`<!-- $theme: default -->`
 |**Gaia**|gaia|`<!-- $theme: gaia -->`
-
 
 ---
 
