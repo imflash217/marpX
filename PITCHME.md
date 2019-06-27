@@ -3,6 +3,7 @@ Marp
 
 # ![](images/marp.png)
 
+
 ##### Markdown presentation writer, powered by [Electron](http://electron.atom.io/)
 
 ###### Created by Yuki Hattori ( [@yhatt](https://github.com/yhatt)  )
@@ -21,12 +22,15 @@ Marp
 
 ---
 
+
 # How to write slides?
+
 Split slides by horizontal ruler `---`. It's very simple.
 
 ```md
 # Slide 1
 foobar
+```
 
 ---
 
