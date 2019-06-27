@@ -1,5 +1,6 @@
 Marp
 
+<!-- $size: 16:9 -->
 <!-- $theme: gaia -->
 ===
 
