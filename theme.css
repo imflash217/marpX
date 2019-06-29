@@ -1,5 +1,11 @@
 /* @theme flashSlides 
  * @auto-scaling fittingHeader,math,code
  */
-@import 'uncover';
 
+section {
+    width: 960px;
+    height: 720px;
+    background-color: #f00;
+    font-size: 20px;
+    font: normal small-caps normal 16px/1.4 Georgia;
+}

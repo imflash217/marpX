@@ -1,7 +1,15 @@
-<!-- theme: uncover -->
-<!-- size: 10:3 -->
+<style>
+section {
+    font-family: "Fira Code";
+    font-size: 20px;
+    background-color: #fff;
+}
 
----
+.language-javascript,
+.language-python{
+    font-family: "Fira Code";
+}
+</style>
 
 Render inline math such as $ax^2+bc+c$.
 
@@ -12,6 +20,94 @@ f(x) = \int_{-\infty}^\infty
     \hat f(\xi)\,e^{2 \pi i \xi x}
     \,d\xi
 $$
+
+---
+
+```python
+class WowMagic:
+    def __init__(self, magic):
+        self.magic = magic
+        self.authenticity = True
+    def foolPeople(response):
+        if response:
+            continue
+        else:
+            pass
+```
+
+---
+```css
+%reset-button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  font: inherit;
+  color: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+
+  // /* Remove excess padding and border in Firefox 4+ */
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}
+
+```
+
+---
+
+```javascript
+
+module.exports = {
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
+  url: process.env.URL,
+}
+
+module.exports = {
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
+  url: process.env.URL,
+}
+
+module.exports = {
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
+  url: process.env.URL,
+}
+
+module.exports = {
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
+  url: process.env.URL,
+}
+
+module.exports = {
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
+  url: process.env.URL,
+}
+
+module.exports = {
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
+  url: process.env.URL,
+}
+
+module.exports = {
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
+  url: process.env.URL,
+}
+```
 
 ---
 
@@ -256,3 +352,19 @@ $$I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx$$
 
 Copyright &copy; 2016 [Yuki Hattori](https://github.com/yhatt)
 This software released under the [MIT License](https://github.com/yhatt/marp/blob/master/LICENSE).
+a
+asa
+aasdasd
+asas
+asds
+ddd
+a
+adadd
+
+addd
+
+a
+d
+ddda
+dad
+adad
