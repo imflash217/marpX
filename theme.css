@@ -1,36 +1,5 @@
-/* @theme flashSlides */
+/* @theme flashSlides 
+ * @auto-scaling fittingHeader,math,code
+ */
+@import 'uncover';
 
-section{
-    background-color: #963;
-    color: #fff
-}
-
-section.title{
-    font-size: 50px;
-}
-
-section::after{
-    font-weight: bold;
-    text-shadow: 1px 1px 0 #fff;
-}
-
-header,
-footer{
-    position: absolute;
-    left: 50px;
-    right: 50px;
-    height: 20px;
-}
-
-header{
-    top: 30px;
-}
-
-footer{
-    bottom: 30px;
-}
-
-h1{
-    color: currentColor;
-    border-bottom: 5px solid currentColor;
-}
