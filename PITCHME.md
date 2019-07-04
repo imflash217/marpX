@@ -1,4 +1,7 @@
-<!-- footer: @imflash217 | flashAI.labs | 2019 -->
+<!-- 
+footer: @imflash217 | flashAI.labs | 2019 
+page_number: true
+-->
 <style>
 section {
     font-family: "Fira Code";
