@@ -27,7 +27,7 @@ Roadmap:
     - Pruning Techniques (will be discussed in detail later)
     - Naive Bayes & MLE/MAP estimates
     - SVMs & Random Forests
-- *Neural Networks Foundation:*
+- Neural Networks Foundation:
     - Linear Classification & Regression
     - Backpropagation
     - Feed-forward Deep Neural Networks (DNN)
@@ -35,7 +35,9 @@ Roadmap:
     - Overfitting & Cross-validation `[revisted]`
     - Various Weight Initialization Strategies
     - Recurrent NN, LSTMs & GRUs
-
+- Neural Networks Practice:
+    - CNN implemenation in PyTorch
+    - LSTM implementation in PyTorch
 
 ---
 
