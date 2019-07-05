@@ -14,7 +14,10 @@ section {
 }
 </style>
 
-# Machine Learning Part-1 (Basics & Theory)
+# `Machine Learning Part-1 (Basics & Theory)`
+
+---
+
 
 ---
 
