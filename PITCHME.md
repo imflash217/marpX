@@ -14,7 +14,7 @@ section {
 }
 </style>
 
-#       Machine Learning Part-1 (Basics & Theory)
+# Machine Learning Part-1 (Basics & Theory)
 
 ---
 
@@ -25,17 +25,20 @@ section {
     - Pruning Techniques `later`
     - Naive Bayes & MLE/MAP estimates `optional`
     - SVMs & Random Forests `optional`
-- Neural Networks Foundation:
+- Neural Networks:
     - Linear Classification & Regression
     - Backpropagation
     - Feed-forward Deep Neural Networks (DNN)
     - Convolutional Neural Networks (CNN)
-    - Overfitting & Cross-validation `[revisted]`
+    - Overfitting & Cross-validation `revisted`
     - Various Weight Initialization Strategies
     - Recurrent NN, LSTMs & GRUs
-- Neural Networks Practice:
-    - CNN implemenation in PyTorch
-    - LSTM implementation in PyTorch
+    - CNN implemenation in `PyTorch`
+    - LSTM implementation in `PyTorch`
+
+---
+# Decision trees
+
 
 ---
 
