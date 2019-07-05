@@ -1,11 +1,19 @@
 <!-- 
 footer: @imflash217 | flashAI.labs | 2019 
 -->
+
+---
+background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+
+
+---
+
 <style>
 section {
     font-family: "Fira Code";
     font-size: 20px;
-    background-color: #fff;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 .language-javascript,
@@ -13,6 +21,7 @@ section {
     font-family: "Fira Code";
 }
 </style>
+
 
 # Machine Learning Part-1 (Basics & Theory)
 
