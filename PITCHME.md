@@ -17,15 +17,20 @@ section {
 #       Machine Learning Part-1 (Basics & Theory)
 
 ---
+
 Roadmap:
+
 - ML Foundation:
     - Decision Tree Learning
     - Function Approximation & Generalization Guarantees
     - Overfitting & Validation
     - Pruning Techniques (will be discussed in detail later)
     - Naive Bayes & MLE/MAP estimates
-- Neural Networks FOundation:
-    - 
+    - SVMs & Random Forests
+- Neural Networks Foundation:
+    - Linear Classification & Regression
+    - Backpropagation
+    -
 
 ---
 
