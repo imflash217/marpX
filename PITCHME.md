@@ -6,7 +6,7 @@ footer: @imflash217 | flashAI.labs | 2019
 section {
     font-family: "Fira Code";
     font-size: 20px;
-    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 .language-javascript,
