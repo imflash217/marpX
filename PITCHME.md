@@ -1,6 +1,5 @@
 <!-- 
 footer: @imflash217 | flashAI.labs | 2019 
-page_number: true
 -->
 <style>
 section {
@@ -14,6 +13,10 @@ section {
     font-family: "Fira Code";
 }
 </style>
+
+Machine Learning Part-1 (Basics & Theory)
+
+---
 
 Render inline math such as $ax^2+bc+c$.
 
