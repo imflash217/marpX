@@ -16,13 +16,13 @@ section {
 </style>
 
 
-# Machine Learning Part-1 (Basics & Theory)
+#Machine Learning Part-1 (Basics & Theory)
 
 ---
 
 - ML Foundation:
-    - Decision Tree Learning
     - Function Approximation & Generalization Guarantees
+    - Decision Tree Learning
     - Overfitting & Validation
     - Pruning Techniques `later`
     - Naive Bayes & MLE/MAP estimates `optional`
@@ -39,7 +39,12 @@ section {
     - LSTM implementation in `PyTorch`
 
 ---
-# Decision trees
+<!-- _header: Function Approximation -->
+#Function Approximation
+
+##
+---
+#Decision Trees
 
 
 ---
