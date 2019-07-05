@@ -17,7 +17,12 @@ section {
 # `Machine Learning Part-1 (Basics & Theory)`
 
 ---
-
+Roadmap:
+- ML FOundation:
+    - Decision Tree Learning
+    - Function Approximation
+    - Overfitting
+    - 
 
 ---
 
