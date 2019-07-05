@@ -20,16 +20,20 @@ section {
 
 Roadmap:
 
-- ML Foundation:
+**- ML Foundation:**
     - Decision Tree Learning
     - Function Approximation & Generalization Guarantees
     - Overfitting & Validation
     - Pruning Techniques (will be discussed in detail later)
     - Naive Bayes & MLE/MAP estimates
     - SVMs & Random Forests
-- Neural Networks Foundation:
+- **Neural Networks Foundation:**
     - Linear Classification & Regression
     - Backpropagation
+    - Feed-forward Deep Neural Networks (DNN)
+    - Convolutional Neural Networks (CNN)
+    - Overfitting & Cross-validation `[revisted]`
+    - Various Weight Initialization Strategies
     -
 
 ---
