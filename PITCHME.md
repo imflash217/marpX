@@ -16,9 +16,10 @@ section {
 </style>
 
 
-#Machine Learning Part-1 (Basics & Theory)
+# Machine Learning Part-1 (Basics & Theory)
 
 ---
+<!-- _header: Roadmap -->
 
 - ML Foundation:
     - Function Approximation & Generalization Guarantees
@@ -40,13 +41,13 @@ section {
 
 ---
 <!-- _header: Function Approximation -->
-#Function Approximation
+# Function Approximation
 
 ##
 
 ---
 
-#Decision Trees
+# Decision Trees
 
 
 ---
