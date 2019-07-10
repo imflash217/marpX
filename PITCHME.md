@@ -16,7 +16,7 @@ section {
 </style>
 
 
-# Machine Learning Part-1 (Basics & Theory)
+# Machine Learning (Theory & Practice)
 
 ---
 <!-- _header: Roadmap -->
@@ -38,6 +38,9 @@ section {
     - Recurrent NN, LSTMs & GRUs
     - CNN implemenation in `PyTorch`
     - LSTM implementation in `PyTorch`
+
+---
+<!-- _header: What is Machine Learning? -->
 
 ---
 <!-- _header: Function Approximation -->
