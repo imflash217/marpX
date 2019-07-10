@@ -13,7 +13,7 @@ section {
 .language-python{
     font-family: "Fira Code";
 }
-mark {
+p {
     background-color: #f00;
 }
 </style>
@@ -83,7 +83,7 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
-<mark> HIGHLIGHTED TEXT </mark>
+<p> HIGHLIGHTED TEXT </p>
 
 ```
 [OUTLOOK]
