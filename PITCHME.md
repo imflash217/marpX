@@ -48,19 +48,15 @@ Three main parameters in understanding, designing & debugging any machine learni
 
 So, any machine learning algorithm is merely just a **well defined learning task** $<P,T,E>$
 
-For eg: spam filters, etc.
-
----
-<!-- _header: Example: Classifying text documents (like spam-filters) -->
-
----
-<!-- _header: Example: Emergency C-section prediction -->
+Some examples we'll see: Emergency C-sections, Playing forecasts, etc.
 
 ---
 <!-- _header: Function Approximation -->
-# Function Approximation
+Problem Setting:
+- Set of possible instances $\bold{X}$
+- Unknown target function: $f: X->Y$
+- Set of function hypotheses $H = {h|h:X->Y}$
 
-##
 
 ---
 
