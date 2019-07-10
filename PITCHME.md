@@ -65,7 +65,7 @@ Output:
 ---
 <!-- header: Decision Trees -->
 Problem Setting:
-- Set of possible instances i$\bold{X}$
+- Set of possible instances $\bold{X}$
     - Each Instance $x$ in $\bold{X}$ is a FEATURE VECTOR
     - $x = <x_{1}, x_{2}, x_{3} ... x_{n}>$
 - Unknown target function $f: \bold{X}\rightarrow \bold{Y}$
@@ -74,7 +74,7 @@ Problem Setting:
     - Each hypothesis $h$ is a DT
 
 Inputs:
-- Training examples $\{<x_{i}, y_{i}>\}$ of unknown target function $f$
+- Training examples $\{<x^{i}, y^{i}>\}$ of unknown target function $f$
 
 Output:
 - Hypothesis $h \in H$ which best approximates $f$
@@ -94,6 +94,25 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 |#8|Sunny|Mild|High|Weak|No|
 
 ---
+Problem Setting:
+- Set of possible instances $\bold{X}$
+    - Each Instance $x$ in $\bold{X}$ is a **FEATURE VECTOR**
+    - For eg: $x = <Outlook=Sunny, Temp=Hot, Humidity=High, Wind=Weak>$
+- Unknown target function $f: \bold{X}\rightarrow \bold{Y}$
+    - $\bold{Y}$ is descrete valued
+    - For eg: Here, $y^{i}=Yes$ if we play else $No$
+- Set of function hypotheses $H = \{h|h:\bold{X}\rightarrow \bold{Y}\}$
+    - Each hypothesis $h$ is a DT
+    - Trees sort $x$ to leaf-node, which assigns $y$
+
+Inputs:
+- Training examples $\{<x^{i}, y^{i}>\}$ of unknown target function $f$
+
+Output:
+- Hypothesis $h \in H$ which best approximates $f$
+
+
+---
 
 ```
 [OUTLOOK]
@@ -106,7 +125,7 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 Strategy: 
 - Internal Node: test one discrete-valued attribute $x_{i}$
 - Brach from a node: select one value for $x_{i}$
-- leaf node: predict $Y$ or ($P(Y|X \in leaf-node)$)
+- leaf node: predict $Y$ or ($P(Y|X \in leaf)$)
 
 ---
 
