@@ -92,6 +92,7 @@ Output:
 |#8|Sunny|Mild|High|Weak|No|
 
 ---
+$f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 
 ```
 [OUTLOOK]
