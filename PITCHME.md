@@ -13,9 +13,6 @@ section {
 .language-python{
     font-family: "Fira Code";
 }
-p {
-    background-color: #f00;
-}
 </style>
 
 # Machine Learning (Theory & Practice)
@@ -83,7 +80,11 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
-<p> HIGHLIGHTED TEXT </p>
+|Day|Outlook|Temp|Humidity|Wind|Play?|
+|#1|Sunny|Hot|High|Weak|No|
+|#2|Sunny|Hot|High|Strong|No|
+
+---
 
 ```
 [OUTLOOK]
