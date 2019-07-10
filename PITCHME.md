@@ -103,6 +103,11 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 ((NO), (YES)), --, ((NO), (YES))
 ```
 
+Strategy: 
+- Internal Node: test one discrete-valued attribute $x_{i}$
+- Brach from a node: select one value for $x_{i}$
+- leaf node: predict $Y$ or ($P(Y|X \in leaf-node)$)
+
 ---
 
 Render inline math such as $ax^2+bc+c$.
