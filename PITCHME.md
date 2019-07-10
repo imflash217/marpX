@@ -1,5 +1,5 @@
 <!-- 
-footer: Vinay Kumar (@imflash217) | flashAI.labs | 2017-2019 
+footer: @imflash217 | flashAI.labs | 2017-2019 
 -->
 
 <style>
@@ -84,7 +84,11 @@ Output:
 
 # Decision Trees
 
-
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
 ---
 
 Render inline math such as $ax^2+bc+c$.
