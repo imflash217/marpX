@@ -15,6 +15,9 @@ section {
 }
 </style>
 
+<!-- mermaid.js --> 
+<script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
 # Machine Learning (Theory & Practice)
 
