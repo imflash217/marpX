@@ -81,7 +81,7 @@ Output:
 
 ---
 |Day|Outlook|Temp|Humidity|Wind|Play?|
-|----------|:-------------:|------:|
+|-----|-----|------|----|---|------|
 |#1|Sunny|Hot|High|Weak|No|
 |#2|Sunny|Hot|High|Strong|No|
 
