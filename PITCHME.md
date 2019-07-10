@@ -51,6 +51,12 @@ So, any machine learning algorithm is merely just a **well defined learning task
 For eg: spam filters, etc.
 
 ---
+<!-- _header: Example: Classifying text documents (like spam-filters) -->
+
+---
+<!-- _header: Example: Emergency C-section prediction -->
+
+---
 <!-- _header: Function Approximation -->
 # Function Approximation
 
