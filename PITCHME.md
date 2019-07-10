@@ -41,6 +41,10 @@ section {
 
 ---
 <!-- _header: What is Machine Learning? -->
+Three main parameters in understanding, designing & debugging any machine learning algorithm:
+- Performane `P`
+- Task `T`
+- Experience `E`
 
 ---
 <!-- _header: Function Approximation -->
