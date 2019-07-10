@@ -46,7 +46,7 @@ Three main parameters in understanding, designing & debugging any machine learni
 - Task `T`
 - Experience `E`
 
-So, any machine learning algorithm is merely just a *well defined learning task* $<P,T,E>$
+So, any machine learning algorithm is merely just a **well defined learning task** $<P,T,E>$
 
 For eg: spam filters, etc.
 
