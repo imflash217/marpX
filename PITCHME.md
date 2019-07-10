@@ -13,6 +13,9 @@ section {
 .language-python{
     font-family: "Fira Code";
 }
+mark {
+    background-color: #f00;
+}
 </style>
 
 # Machine Learning (Theory & Practice)
