@@ -63,7 +63,7 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
-<!-- _header: Decision Trees -->
+<!-- header: Decision Trees -->
 Problem Setting:
 - Set of possible instances i$\bold{X}$
     - Each Instance $x$ in $\bold{X}$ is a FEATURE VECTOR
@@ -80,8 +80,6 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
-
-# Decision Trees
 
 ```
 [OUTLOOK]
