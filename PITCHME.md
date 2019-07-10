@@ -15,10 +15,6 @@ section {
 }
 </style>
 
-<!-- mermaid.js --> 
-<script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
-
 # Machine Learning (Theory & Practice)
 
 ---
@@ -87,19 +83,14 @@ Output:
 
 # Decision Trees
 
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
+```
+[OUTLOOK]
+{Sunny, Overcast, Rain}
+[HUMIDITY], (YES), [WIND]
+{High, Normal}, --, {Strong, Weak}
+((NO), (YES)), --, ((NO), (YES))
 ```
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
 ---
 
 Render inline math such as $ax^2+bc+c$.
