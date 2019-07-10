@@ -54,9 +54,14 @@ Some examples we'll see: Emergency C-sections, Playing forecasts, etc.
 <!-- _header: Function Approximation -->
 Problem Setting:
 - Set of possible instances $\bold{X}$
-- Unknown target function: $f: \bold{X}\rightarrow \bold{Y}$
+- Unknown target function $f: \bold{X}\rightarrow \bold{Y}$
 - Set of function hypotheses $H = \{h|h:\bold{X}\rightarrow \bold{Y}\}$
 
+Inputs:
+- Training examples $\{<x_{i}, y_{i}>\}$ of unknown target function $f$
+
+Output:
+- Hypothesis $h \in H$ which best approximates $f$
 
 ---
 
