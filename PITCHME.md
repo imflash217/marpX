@@ -80,6 +80,8 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
+$f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?
+
 |Day|Outlook|Temp|Humidity|Wind|Play?|
 |-----|-----|------|----|---|------|
 |#1|Sunny|Hot|High|Weak|No|
@@ -92,7 +94,6 @@ Output:
 |#8|Sunny|Mild|High|Weak|No|
 
 ---
-$f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 
 ```
 [OUTLOOK]
