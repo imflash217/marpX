@@ -64,6 +64,23 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
+<!-- _header: Decision Trees -->
+Problem Setting:
+- Set of possible instances i$\bold{X}$
+    - Each Instance $x$ in $\bold{X}$ is a FEATURE VECTOR
+    - $x = <x_{1}, x_{2}, x_{3} ... x_{n}>$
+- Unknown target function $f: \bold{X}\rightarrow \bold{Y}$
+    - $\bold{Y}$ is descrete valued
+- Set of function hypotheses $H = \{h|h:\bold{X}\rightarrow \bold{Y}\}$
+    - Each hypothesis $h$ is a DT
+
+Inputs:
+- Training examples $\{<x_{i}, y_{i}>\}$ of unknown target function $f$
+
+Output:
+- Hypothesis $h \in H$ which best approximates $f$
+
+---
 
 # Decision Trees
 
