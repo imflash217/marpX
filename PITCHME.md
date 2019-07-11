@@ -128,6 +128,13 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 - leaf node: predict $Y$ or ($P(Y|X \in leaf)$)
 
 ---
+<!-- _header: Decision Trees: Examples -->
+- How would you represent following functions as DT?
+    - $Y = X_{1}X_{2}$
+    - $Y = X_{1} \vee X_{2}$
+    - $Y = X_{1}X_{2} \vee X_{3}X_{4}(\neg X_{1})$
+
+---
 
 Render inline math such as $ax^2+bc+c$.
 
