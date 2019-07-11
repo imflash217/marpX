@@ -139,7 +139,7 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 - 1000 medical records
 - Negative examples are C-sections
 
-```
+```python
 [833+, 167-] 0.83+ 0.17-
 Fetal_Presentation = 1: [822+, 116-] 0.88+ 0.12-
 |   Previous_C-section = 0: [767+, 81-] 0.90+ 0.10-
