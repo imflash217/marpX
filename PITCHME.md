@@ -94,7 +94,7 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 |#8|Sunny|Mild|High|Weak|No|
 
 ---
-Problem Setting:
+**Problem Setting:**
 - Set of possible instances $\bold{X}$
     - Each Instance $x$ in $\bold{X}$ is a **FEATURE VECTOR**
     - For eg: $x = <Outlook=Sunny, Temp=Hot, Humidity=High, Wind=Weak>$
@@ -105,10 +105,10 @@ Problem Setting:
     - Each hypothesis $h$ is a DT
     - Trees sort $x$ to leaf-node, which assigns $y$
 
-Inputs:
+**Inputs:**
 - Training examples $\{<x^{i}, y^{i}>\}$ of unknown target function $f$
 
-Output:
+**Output:**
 - Hypothesis $h \in H$ which best approximates $f$
 
 
@@ -122,7 +122,7 @@ Output:
 ((NO), (YES)), --, ((NO), (YES))
 ```
 
-Strategy: 
+**Strategy:**
 - Internal Node: test one discrete-valued attribute $x_{i}$
 - Brach from a node: select one value for $x_{i}$
 - leaf node: predict $Y$ or ($P(Y|X \in leaf)$)
