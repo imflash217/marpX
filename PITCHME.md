@@ -155,6 +155,22 @@ Fetal_Presentation = 3: [8+, 22-] 0.27+ 0.73-
 ```
 
 ---
+<!-- header: Top-Down Induction of DT (an ID3 approach)-->
+```python
+tree.root = ROOT
+def loop(tree, node):
+    node.next = A   #The BEST decision attribute for next node based on some CRITERION
+    for ex in examples:
+        result = sort(ex, tree)     # returns a sequence of 0 & 1 (0=not_fully_sorted till leaf node)
+    if 0 in result:
+        loop(tree, node.next)
+    else:
+        break;
+
+loop(tree, tree.root)
+```
+
+---
 
 Render inline math such as $ax^2+bc+c$.
 
