@@ -212,13 +212,19 @@ $$
 $$
 
 Conditional Entropy:
-$\displaystyle \mathcal{H}(X|Y) = -\sum_{y\in\text{values}(Y)}{P(Y=y)\cdot\mathcal{H}(X|Y=y)}$
+$$
+\displaystyle \mathcal{H}(X|Y) = -\sum_{y\in\text{values}(Y)}{P(Y=y)\cdot\mathcal{H}(X|Y=y)}
+$$
 
 Mutual Information (aka **Information Gain**):
-$\displaystyle \mathcal{I}(X,Y) = \mathcal{H}(X)-\mathcal{H}(X|Y) = \mathcal{H}(Y)-\mathcal{H}(Y|X)$
+$$
+\displaystyle \mathcal{I}(X,Y) = \mathcal{H}(X)-\mathcal{H}(X|Y) = \mathcal{H}(Y)-\mathcal{H}(Y|X)
+$$
 
 $\mathcal{I}_{S}(F,Y)$ is the expected reduction in entropy of target variable $Y$ for data sample $S$ due to sorting on feature $F$
-$\text{Gain}(S,F) = \mathcal{I}_{S}(F,Y) = \mathcal{H}_{S}(Y)-\mathcal{H}_{S}(Y|F)$
+$$
+\text{Gain}(S,F) = \mathcal{I}_{S}(F,Y) = \mathcal{H}_{S}(Y)-\mathcal{H}_{S}(Y|F)
+$$
 
 ---
 
