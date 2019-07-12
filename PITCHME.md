@@ -172,7 +172,7 @@ loop(tree, tree.root)
 
 ---
 
-Render inline math such as $ax^2+bc+c$.
+==Render inline== math such as $ax^2+bc+c$.
 
 $$ I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx $$
 
