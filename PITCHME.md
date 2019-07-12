@@ -145,19 +145,19 @@ OUTLOOK = rain:
 - Negative examples are C-sections
 
 ```python
-                                        [833+, 167-] 0.83+ 0.17-
+                                        [833+,  167-] 0.83+ 0.17-
 
-Fetal_Presentation = 1:                 [822+, 116-] 0.88+ 0.12-
-|   Previous_C-section = 0:             [767+, 81-] 0.90+ 0.10-
-|   |   Primiparous = 0:                [399+, 13-] 0.97+ 0.03-
-|   |   Primiparous = 1:                [368+, 68-] 0.84+ 0.16-
-|   |   |   Fetal_Distress = 0:         [334+, 47-] 0.88+ 0.12-
+Fetal_Presentation = 1:                 [822+,  116-] 0.88+ 0.12-
+|   Previous_C-section = 0:             [767+,   81-] 0.90+ 0.10-
+|   |   Primiparous = 0:                [399+,   13-] 0.97+ 0.03-
+|   |   Primiparous = 1:                [368+,   68-] 0.84+ 0.16-
+|   |   |   Fetal_Distress = 0:         [334+,   47-] 0.88+ 0.12-
 |   |   |   |   Birth_weight <  3349g:  [201+, 10.6-] 0.95+ 0.05-
 |   |   |   |   Birth_weight >= 3349g:  [113+, 36.4-] 0.78+ 0.22-
-|   |   |   Fetal_Distress = 1:         [34+, 21-] 0.62+ 0.38-
-|   Previous_C-section = 1:             [55+, 35-] 0.61+ 0.39-
-Fetal_presentation = 2:                 [3+, 29-] 0.11+ 0.89-
-Fetal_Presentation = 3:                 [8+, 22-] 0.27+ 0.73-
+|   |   |   Fetal_Distress = 1:         [ 34+,   21-] 0.62+ 0.38-
+|   Previous_C-section = 1:             [ 55+,   35-] 0.61+ 0.39-
+Fetal_presentation = 2:                 [  3+,   29-] 0.11+ 0.89-
+Fetal_Presentation = 3:                 [  8+,   22-] 0.27+ 0.73-
 ```
 
 ---
