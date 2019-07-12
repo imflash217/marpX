@@ -244,6 +244,9 @@ Higher the `Gain()`, the better. So `HUMIDITY` is selected as the node-feature f
 Similarly we run tests for all features and find that `OUTLOOK` is the best features at the `ROOT` of this DT.
 
 ---
+<!-- header: Occam's Razor -->
+
+---
 
 ==Render inline== math such as $ax^2+bc+c$.
 
