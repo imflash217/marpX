@@ -17,7 +17,7 @@ section {
 
 ---
 
-![](./assets/img/flashSlides.png)
+![](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png)
 
 ---
 <!-- _header: Roadmap -->
@@ -82,8 +82,6 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
-<!-- _footer: ![](./assets/img/flashSlides.png) -->
-
 $f: \langle\text{OUTLOOK, TEMP, HUMIDITY, WIND}\rangle \rightarrow \text{PLAY}?$
 
 ```python
@@ -171,7 +169,7 @@ Fetal_Presentation = 3:                 [  8+,   22-] 0.27+ 0.73-
 ```python
 tree.root = ROOT
 def loop(tree, node):
-    node.next = A   #The BEST decision attribute for next node based on some CRITERION
+    node.next = A                   #The BEST decision attribute for next node based on some CRITERION
     for ex in examples:
         result = sort(ex, tree)     # returns a sequence of 0 & 1 (0=not_fully_sorted till leaf node)
     if 0 in result:
