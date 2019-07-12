@@ -200,12 +200,16 @@ NOTE:
 ---
 <!-- header: ENTROPY: "Defines how impure a group is." -->
 
-$\displaystyle \mathcal{H}(X) = -\sum_{i=1}^{n}{P(X=i)\cdot\log_{2}{P(X=i)}}$
+$$
+\displaystyle \mathcal{H}(X) = -\sum_{i=1}^{n}{P(X=i)\cdot\log_{2}{P(X=i)}}
+$$
 
 $\mathcal{H}(X)$ is the expected number of bits needed to encode a randomly drawn value of $X$ (under most efficient code).
 
 Specific conditional Entropy:
-$\displaystyle \mathcal{H}(X|Y=y) = -\sum_{i=1}^{n}{P(X=i|Y=y)\cdot\log_{2}{P(X=i|Y=y)}}$
+$$
+\displaystyle \mathcal{H}(X|Y=y) = -\sum_{i=1}^{n}{P(X=i|Y=y)\cdot\log_{2}{P(X=i|Y=y)}}
+$$
 
 Conditional Entropy:
 $\displaystyle \mathcal{H}(X|Y) = -\sum_{y\in\text{values}(Y)}{P(Y=y)\cdot\mathcal{H}(X|Y=y)}$
