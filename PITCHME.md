@@ -17,7 +17,7 @@ section {
 
 ---
 
-![bg](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png)
+![bg](assets/img/flashSlides.jpg)
 
 ---
 <!-- _header: Roadmap -->
