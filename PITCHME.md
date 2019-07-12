@@ -198,8 +198,7 @@ NOTE:
 - Fundamentally, any CONCAVE function is well suited* to be used as a classification criterion ('ll see later) 
 
 ---
-<!-- header: ENTROPY -->
-"Defines how impure a group is."
+<!-- header: ENTROPY: "Defines how impure a group is." -->
 
 $\displaystyle \mathcal{H}(X) = -\sum_{i=1}^{n}{P(X=i)\cdot\log_{2}{P(X=i)}}$
 
