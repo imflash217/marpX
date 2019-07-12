@@ -227,6 +227,23 @@ $$
 $$
 
 ---
+```python
+                          S=[9+, 5-]    H(S)   = 0.940
+HUMIDITY = high:        S_0=[3+, 4-]    H(S_0) = 0.985  fr_0 = (3+4)/(9+5) = 7/14
+HUMIDITY = normal:      S_1=[6+, 1-]    H(S_1) = 0.592  fr_1 = (6+1)/(9+5) = 7/14
+                        Gain(S, HUMIDITY) = H(S) - fr_0*H(S_0) - fr_1*H(S_1) = 0.151
+
+
+                          S=[9+, 5-]    H(S)   = 0.940
+WIND = weak:            S_0=[6+, 2-]    H(S_0) = 0.811  fr_0 = (6+2)/(9+5) = 8/14
+WIND = strong:          S_1=[3+, 3-]    H(S_1) = 1.0    fr_1 = (3+3)/(9+5) = 6/14
+                        Gain(S, WIND) = H(S) - fr_0*H(S_0) - fr_1*H(S_1) = 0.048
+
+```
+Higher the `Gain()`, the better. So `HUMIDITY` is selected as the node-feature for this particular node in the DT.
+Similarly we run tests for all features and find that `OUTLOOK` is the best features at the `ROOT` of this DT.
+
+---
 
 ==Render inline== math such as $ax^2+bc+c$.
 
