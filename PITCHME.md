@@ -123,6 +123,18 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 ((NO), (YES)), --, ((NO), (YES))
 ```
 
+```python
+OUTLOOK = sunny:
+|   HUMIDITY = high:    False
+|   HUMIDITY = normal:  True
+OUTLOOK = overcast:     True
+OUTLOOK = rain:
+|   WIND = strong:      False
+|   WIND = weak:        True
+
+```
+
+
 **Strategy:**
 - Internal Node: test one discrete-valued attribute $x_{i}$
 - Brach from a node: select one value for $x_{i}$
