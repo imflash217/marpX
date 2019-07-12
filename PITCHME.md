@@ -201,7 +201,7 @@ NOTE:
 <!-- header: ENTROPY -->
 "Defines how impure a group is."
 
-$\mathcal{H(X)} = -\Sigma_{i=1}^{n}{P(X=i)\log_{2}{P(X=i)}}$
+$\mathcal{H}(X) = -\mathlarger{\sum_{i=1}^{n}{P(X=i)\log_{2}{P(X=i)}}}$
 
 ---
 
