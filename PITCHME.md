@@ -95,6 +95,19 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 |#7|Overcast|Cool|Normal|Strong|Yes|
 |#8|Sunny|Mild|High|Weak|No|
 
+```python
+DAY     OUTLOOK     TEMP    HUMIDITY    WIND  | PLAY?
+------------------------------------------------------
+1       sunny       hot     high        weak    False
+2       sunny       hot     high        strong  False
+3       overcast    hot     high        weak    True
+4       rain        mild    high        weak    True
+5       rain        cool    normal      weak    True
+6       rain        cool    normal      strong  False
+7       overcast    cool    normal      strong  True
+8       sunny       mild    high        weak    False
+```
+
 ---
 **Problem Setting:**
 - Set of possible instances $\bold{X}$
