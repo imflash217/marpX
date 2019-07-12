@@ -188,6 +188,15 @@ What are some possible **CRITERIA**??
 How well can we define our problem (the ones we saw before)?
 What was our **objective**? accuracy :thinking: error :thinking: or something else??
 
+---
+If we ponder carefully, we will notice that our _objective_ was to **classify the data as PURELY as possible**
+
+This brings us to one of the most commonly known & widely used metric for classification **purity** called **ENTROPY**
+
+NOTE: 
+- Though there can be arguments in favour of _accuracy_ or _error_ metrics too, these provide less generalization-gurantees ('ll see later)
+- Fundamentally, any CONCAVE function is well suited* to be used as a classification criterion ('ll see later) 
+
 
 ---
 
