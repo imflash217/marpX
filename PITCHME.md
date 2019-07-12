@@ -82,6 +82,8 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
+<!-- _footer: ![](./assets/img/flashSlides.png) -->
+
 $f: \langle\text{OUTLOOK, TEMP, HUMIDITY, WIND}\rangle \rightarrow \text{PLAY}?$
 
 ```python
