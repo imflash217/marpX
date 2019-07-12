@@ -17,7 +17,7 @@ section {
 
 ---
 
-![bg](assets/img/flashSlides.png)
+![](assets/img/flashSlides.png)
 
 ---
 <!-- _header: Roadmap -->
