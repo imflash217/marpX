@@ -82,7 +82,7 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
-$f: <\text{OUTLOOK}, TEMP, HUMIDITY, WIND> \rightarrow Play?$
+$f: <\text{OUTLOOK, TEMP, HUMIDITY, WIND}> \rightarrow \text{PLAY}?$
 
 ```python
 DAY     OUTLOOK     TEMP    HUMIDITY    WIND  | PLAY?
