@@ -113,6 +113,7 @@ $f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
 
 
 ---
+![bg right](https://picsum.photos/720?image=29)
 
 ```
 [OUTLOOK]
