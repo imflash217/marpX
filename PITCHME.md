@@ -117,7 +117,6 @@ DAY     OUTLOOK     TEMP    HUMIDITY    WIND  | PLAY?
 
 
 ---
-![bg right:33%](https://picsum.photos/720?image=29)
 
 ```python
 OUTLOOK = sunny:
@@ -179,7 +178,8 @@ def loop(tree, node):
 
 loop(tree, tree.root)
 ```
-
+---
+<!-- _footer: ![](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png) -->
 ---
 
 ==Render inline== math such as $ax^2+bc+c$.
