@@ -185,6 +185,10 @@ Which **CRITERION** we used to make this decision?
 
 What are some possible **CRITERIA**??
 
+How well can we define our problem (the ones we saw before)?
+What was our **objective**? accuracy :thinking: error :thinking: or something else??
+
+
 ---
 
 ==Render inline== math such as $ax^2+bc+c$.
