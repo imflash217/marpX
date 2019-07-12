@@ -14,7 +14,7 @@ section {
     font-family: "Fira Code";
 }
 </style>
-
+![bg](assets/img/flashSlides.png)
 # Machine Learning (Theory & Practice)
 
 ---
