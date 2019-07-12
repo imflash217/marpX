@@ -203,6 +203,17 @@ NOTE:
 
 $\displaystyle \mathcal{H}(X) = -\sum_{i=1}^{n}{P(X=i)\cdot\log_{2}{P(X=i)}}$
 
+$\mathcal{H}(X)$ is the expected number of bits needed to encode a randomly drawn value of $X$ (under most efficient code).
+<hr>
+Specific conditional Entropy:
+$\displaystyle \mathcal{H}(X|Y=y) = -\sum_{i=1}^{n}{P(X=i|Y=y)\cdot\log_{2}{P(X=i|Y=y)}}$
+<hr>
+Conditional Entropy:
+$\displaystyle \mathcal{H}(X|Y) = -\sum_{y\in\text{values}(Y)}{P(Y=y)\cdot\mathcal{H}(X|Y=y)}$
+<hr>
+Mutual Information (aka Information Gain):
+$\displaystyle \mathcal{I}(X,Y) = \mathcal{H}(X)-\mathcal{H}(X|Y) = \mathcal{H}(Y)-\mathcal{H}(Y|X)$
+
 ---
 
 ==Render inline== math such as $ax^2+bc+c$.
