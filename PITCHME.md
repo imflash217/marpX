@@ -179,7 +179,12 @@ def loop(tree, node):
 loop(tree, tree.root)
 ```
 ---
-<!-- _footer: ![bg](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png) -->
+But there is a problem!!!
+How do we select the **BEST attribute** for an node?? :thinking:
+Which **CRITERION** we used to make this decision?
+
+What are some possible **CRITERIA**??
+
 ---
 
 ==Render inline== math such as $ax^2+bc+c$.
