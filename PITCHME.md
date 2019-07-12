@@ -17,7 +17,7 @@ section {
 
 ---
 
-![picture](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png)
+![bg](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png)
 
 ---
 <!-- _header: Roadmap -->
@@ -179,7 +179,7 @@ def loop(tree, node):
 loop(tree, tree.root)
 ```
 ---
-<!-- _footer: ![picture](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png) -->
+<!-- _footer: ![bg](https://github.com/vinaykumar2491/marpX/blob/master/assets/img/flashSlides.png) -->
 ---
 
 ==Render inline== math such as $ax^2+bc+c$.
