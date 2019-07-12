@@ -201,7 +201,7 @@ NOTE:
 <!-- header: ENTROPY -->
 "Defines how impure a group is."
 
-$$\mat{H(X)} = -\sum_{i=1}^{n}{P}$$
+$\mat{H(X)} = -\sum_{i=1}^{n}{P}$
 
 ---
 
