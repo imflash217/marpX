@@ -197,6 +197,11 @@ NOTE:
 - Though there can be arguments in favour of _accuracy_ or _error_ metrics too, these provide less generalization-gurantees ('ll see later)
 - Fundamentally, any CONCAVE function is well suited* to be used as a classification criterion ('ll see later) 
 
+---
+<!-- header: ENTROPY -->
+"Defines how impure a group is."
+
+$$$\mat{H}$
 
 ---
 
