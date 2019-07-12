@@ -82,18 +82,7 @@ Output:
 - Hypothesis $h \in H$ which best approximates $f$
 
 ---
-$f: <Outlook, Temp, Humidity, Wind> \rightarrow Play?$
-
-|Day|Outlook|Temp|Humidity|Wind|Play?|
-|-----|-----|------|----|---|------|
-|#1|Sunny|Hot|High|Weak|No|
-|#2|Sunny|Hot|High|Strong|No|
-|#3|Overcast|Hot|High|Weak|Yes|
-|#4|Rain|Mild|High|Weak|Yes|
-|#5|Rain|Cool|Normal|Weak|Yes|
-|#6|Rain|Cool|Normal|Strong|No|
-|#7|Overcast|Cool|Normal|Strong|Yes|
-|#8|Sunny|Mild|High|Weak|No|
+$f: <\text{OUTLOOK}, TEMP, HUMIDITY, WIND> \rightarrow Play?$
 
 ```python
 DAY     OUTLOOK     TEMP    HUMIDITY    WIND  | PLAY?
