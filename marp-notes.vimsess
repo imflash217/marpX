@@ -12,7 +12,7 @@ badd +1 PITCHME.md
 badd +1 theme.css
 badd +1 marp.config.js
 badd +1 package.json
-badd +0 trash/PITCHME.html
+badd +1 trash/PITCHME.html
 argglobal
 silent! argdel *
 argadd PITCHME.md
@@ -31,11 +31,11 @@ setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
 setlocal nofen
-let s:l = 142 - ((28 * winheight(0) + 18) / 36)
+let s:l = 20 - ((19 * winheight(0) + 20) / 40)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-142
+20
 normal! 03|
 tabnext 1
 if exists('s:wipebuf')
