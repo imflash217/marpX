@@ -18,7 +18,7 @@ section {
 <!-- fit --> Machine Learning
 
 ---
-![bg fit](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/flashSlides.jpg)
+![bg w=50 h=50](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/flashSlides.jpg)
 
 ---
 ![bg right:50%](https://images.unsplash.com/photo-1514302240736-b1fee5985889?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80)
