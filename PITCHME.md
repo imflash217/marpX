@@ -16,10 +16,7 @@ section {
 </style>
 
 <!-- fit --> Machine Learning
-
----
-
-![bg right](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/flashSlides.jpg)
+![bg](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/flashSlides.jpg)
 
 ---
 ![bg right:50%](https://images.unsplash.com/photo-1514302240736-b1fee5985889?ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80)
@@ -249,7 +246,22 @@ Higher the `Gain()`, the better. So `HUMIDITY` is selected as the node-feature f
 Similarly we run tests for all features and find that `OUTLOOK` is the best features at the `ROOT` of this DT.
 
 ---
-<!-- header: Occam's Razor -->
+<!-- header: Occam's Razor: "Simplest is the best, that's the nature's property" -->
+ID3 perform heuristic search through space of Decision Trees. It stops at the _smallest acceptable tree_. **Why?**
+Reason: Occam's Razor
+
+But why to prefer _shorter hypothesis_?
+- In favour: 
+    - Fewer short hypothesis than longer ones
+        - Shorter hypothesis that fits the data is less likely to be a **statistical coincidence**.
+        - Complex hypothesis are more prone to **overfitting**.
+- Against:
+    - Fewer number of hypothesis with specific #nodes and specific attribute. SO, less probability to find a solution
+    - Why should we prefer _short hypothesis_? What's special about those?
+    - No mathemetical gurantees.
+
+---
+<!-- header: Overfitting -->
 
 ---
 
