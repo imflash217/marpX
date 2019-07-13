@@ -17,7 +17,7 @@ section {
 
 ---
 
-![bg](assets/img/flashSlides.jpg)
+![bg](assets/img/sergio-souza-1172502-unsplash.jpg)
 
 ---
 <!-- _header: Roadmap -->
