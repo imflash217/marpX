@@ -251,7 +251,7 @@ Similarly we run tests for all features and find that `OUTLOOK` is the best feat
 ---
 <!-- header: Occam's Razor: "Simplest is the best, that's the nature's property" -->
 ID3 perform heuristic search through space of Decision Trees. It stops at the _smallest acceptable tree_. **Why?**
-##### <!-- fit --> Occam's Razor
+##### Reason: Occam's Razor
 
 But why to prefer _shorter hypothesis_?
 - In favour: 
@@ -280,10 +280,12 @@ We say that $h$ **overfits the train data** if:
 $$
 \text{error}_{\text{true}}(h) \gt \text{error}_{\text{train}}(h)
 $$
-and the **amount of overfittin** is:
+and the **amount of overfitting** is:
 $$
 \delta_{overfit} = \text{error}_{\text{true}}(h) - \text{error}_{\text{train}}(h)
 $$
+
+But there is another way to understand it.
 
 ---
 ## Cross-Validation
@@ -307,6 +309,10 @@ $$
 |   val   |  train  | train |   |  Test data |
 -----------------------------   --------------
 ```
+Because when we use some data to build a hypothesis/DT/NN, we can gurantee that it will perform better (when tested) against `train` as compared to `val` or `test` data. So, $\text{error}_{\text{val}} \gt \text{error}_{\text{train}}$ always.
+Hence in this methodology, we say that overfiting happens when `error_val` **increases continuously**.
+
+
 ---
 
 ==Render inline== math such as $ax^2+bc+c$.
