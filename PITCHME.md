@@ -269,8 +269,27 @@ How do we justify that the DT that is built using some training data will genera
 What is the metric to measure it?
 
 ### <!-- fit --> Overfitting
+```python
+cross-validation
 
+-----------------------------   --------------
+| Overall Training data     |   |  Test data |
+-----------------------------   --------------
 
+-----------------------------   --------------
+|  fold1  |  fold2  | fold3 |   |  Test data |
+-----------------------------   --------------
+
+-----------------------------   --------------
+|  train  |  train  |  val  |   |  Test data |
+-----------------------------   --------------
+-----------------------------   --------------
+|  train  |   val   | train |   |  Test data |
+-----------------------------   --------------
+-----------------------------   --------------
+|   val   |  train  | train |   |  Test data |
+-----------------------------   --------------
+```
 ---
 
 ==Render inline== math such as $ax^2+bc+c$.
