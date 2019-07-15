@@ -333,7 +333,7 @@ for node in DT_FULL.nodes:
 - Provides smallest version of the most accurate subtree
 
 ---
-# <!-- fit --> What do we do if data is limited?
+# <!-- fit --> What do we do if data is limited? :thinking:
 
 ---
 
