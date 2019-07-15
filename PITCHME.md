@@ -251,7 +251,7 @@ Similarly we run tests for all features and find that `OUTLOOK` is the best feat
 ---
 <!-- header: Occam's Razor: "Simplest is the best, that's the nature's property" -->
 ID3 perform heuristic search through space of Decision Trees. It stops at the _smallest acceptable tree_. **Why?**
-<!-- fit --> Occam's Razor
+##### <!-- fit --> Occam's Razor
 
 But why to prefer _shorter hypothesis_?
 - In favour: 
