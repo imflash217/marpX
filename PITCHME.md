@@ -326,12 +326,14 @@ DT_FULL                                 # the DT that classifies TRAIN_SET corre
 
 for node in DT_FULL.nodes:
     if error(DT_FULL.remove(node), VAL_SET) <= error(DT_FULL, VAL_SET):     # notice the equal sign here
-        DT_FULL._remove(node)           # in-place removal
+        DT_FULL._remove(node)           # in-place GREEDY removal
     else:
         continue
 ```
+- Provides smallest version of the most accurate subtree
 
 ---
+# <!-- fit --> What do we do if data is limited?
 
 ---
 
