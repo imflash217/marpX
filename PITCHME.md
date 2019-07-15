@@ -272,6 +272,18 @@ But why to prefer _shorter hypothesis_?
 ### But how do we measure "overfitting"?
 
 ---
+Consider a _hypothesis_ $h$ and its:
+- Error over **train** data: $\text{error}_{\text{train}}(h)$
+- **True** error over **all** data: $\text{error}_{\text{true}}(h)$
+
+We say that $h$ **overfits the train data** if:
+$$
+\text{error}_{\text{true}}(h) \gt \text{error}_{\text{train}}(h)
+$$
+and the **amount of overfittin** is:
+$$
+
+---
 ## Cross-Validation
 
 ```python
