@@ -269,6 +269,7 @@ But why to prefer _shorter hypothesis_?
 ### What is the metric to measure it?
 
 ### <!-- fit --> Overfitting
+### But how do we measure "overfitting"?
 
 ---
 ```python
