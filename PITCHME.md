@@ -282,7 +282,7 @@ $$
 $$
 and the **amount of overfitting** is:
 $$
-\delta_{overfit} = \text{error}_{\text{true}}(h) - \text{error}_{\text{train}}(h)
+\delta_{\text{overfit}} = \text{error}_{\text{true}}(h) - \text{error}_{\text{train}}(h)
 $$
 
 But there is another way to understand it.
@@ -311,7 +311,6 @@ But there is another way to understand it.
 ```
 Because when we use some data to build a hypothesis/DT/NN, we can gurantee that it will perform better (when tested) against `train` as compared to `val` or `test` data. So, $\text{error}_{\text{val}} \gt \text{error}_{\text{train}}$ always.
 Hence in this methodology, we say that overfiting happens when `error_val` **increases continuously**.
-
 
 ---
 
