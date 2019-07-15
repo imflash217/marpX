@@ -314,7 +314,23 @@ So, $\text{error}_{\text{val}} \gt \text{error}_{\text{train}}$ always.
 Hence in this methodology, we say that overfiting happens when $\text{error}_{\text{val}}$ **increases continuously**.
 
 ---
+<!-- header: Overfitting: How to avoid it? -->
+# How can we avoid overfitting train data?
+- Stop growing the DT when data split not **statistically important**
+- Grow full tree the **post-prune**
 
+### Reduced Error pruning:
+```python
+TRAIN_SET, VAL_SET, TEST_SET            # defining train/val/test dataset
+DT_FULL                                 # the DT that classifies TRAIN_SET correctly
+error_val_0 = error(DT_FULL, VAL_SET)
+while error(DT_FULL, VAL_SET) <= error_val_0:
+    for node in DT_FULL.nodes:
+        if error(DT_FULL.remove(node), VAL_SET) < error(DT_FULL, VAL_SET):
+            DT_FULL._remove(node)       # in-place removal
+        else:
+            continue
+```
 
 ---
 
