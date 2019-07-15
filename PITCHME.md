@@ -309,8 +309,14 @@ But there is another way to understand it.
 |   val   |  train  | train |   |  Test data |
 -----------------------------   --------------
 ```
-Because when we use some data to build a hypothesis/DT/NN, we can gurantee that it will perform better (when tested) against `train` as compared to `val` or `test` data. So, $\text{error}_{\text{val}} \gt \text{error}_{\text{train}}$ always.
-Hence in this methodology, we say that overfiting happens when `error_val` **increases continuously**.
+Because when we use some data to build a hypothesis/DT/NN, we can gurantee that it will perform better (when tested) against `train` as compared to `val` or `test` data. 
+So, $\text{error}_{\text{val}} \gt \text{error}_{\text{train}}$ always.
+Hence in this methodology, we say that overfiting happens when $\text{error}_{\text{val}}$ **increases continuously**.
+
+---
+
+
+---
 
 ---
 
