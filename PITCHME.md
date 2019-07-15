@@ -333,7 +333,7 @@ for node in DT_FULL.nodes:
 
 ---
 # <!-- fit --> What do we do if data is limited? :thinking:
-# <!-- fit --> Data-augmentation !!
+# <!-- fit --> `Data-augmentation!!`
 
 ---
 # <!-- fit --> Neural Networks :smiley:
