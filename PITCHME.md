@@ -265,10 +265,12 @@ But why to prefer _shorter hypothesis_?
 
 ---
 <!-- header: Overfitting -->
-How do we justify that the DT that is built using some training data will generalize over unseen data aswell?
-What is the metric to measure it?
+### How do we justify that the DT that is built using some training data will generalize over unseen data aswell?
+### What is the metric to measure it?
 
 ### <!-- fit --> Overfitting
+
+---
 ```python
 cross-validation
 
