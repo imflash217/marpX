@@ -334,6 +334,7 @@ for node in DT_FULL.nodes:
 ---
 # <!-- fit --> What do we do if data is limited? :thinking:
 # <!-- fit --> `Data-augmentation!!`
+![bg vertical]()
 ![bg contain vertical](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
 
 ---
