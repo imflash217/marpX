@@ -377,9 +377,8 @@ for node in DT_FULL.nodes:
 ![bg contain vertical](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
 
 ---
+<!-- header: Neural Networks -->
 # <!-- fit --> Neural Networks :smiley:
-
----
 
 ---
 <!-- header: References -->
