@@ -323,13 +323,12 @@ Hence in this methodology, we say that overfiting happens when $\text{error}_{\t
 ```python
 TRAIN_SET, VAL_SET, TEST_SET            # defining train/val/test dataset
 DT_FULL                                 # the DT that classifies TRAIN_SET correctly
-error_val_0 = error(DT_FULL, VAL_SET)
-while error(DT_FULL, VAL_SET) <= error_val_0:
-    for node in DT_FULL.nodes:
-        if error(DT_FULL.remove(node), VAL_SET) < error(DT_FULL, VAL_SET):
-            DT_FULL._remove(node)       # in-place removal
-        else:
-            continue
+
+for node in DT_FULL.nodes:
+    if error(DT_FULL.remove(node), VAL_SET) <= error(DT_FULL, VAL_SET):     # notice the equal sign here
+        DT_FULL._remove(node)           # in-place removal
+    else:
+        continue
 ```
 
 ---
