@@ -130,9 +130,7 @@ OUTLOOK = overcast:     True
 OUTLOOK = rain:
 |   WIND = strong:      False
 |   WIND = weak:        True
-
 ```
-
 
 **Strategy:**
 - Internal Node: test one discrete-valued attribute $x_{i}$
@@ -182,6 +180,15 @@ def loop(tree, node):
 
 loop(tree, tree.root)
 ```
+
+---
+<!-- _header: Function Approximation: An ID3 search over heuristic-space -->
+```
+length(x_i) = n
+y = {0, 1}
+```
+# How many data samples we need to see to create a fully accurate DT?
+
 ---
 But there is a problem!!!
 How do we select the **BEST attribute** for an node?? :thinking:
@@ -285,6 +292,37 @@ $$
 $$
 
 But there is another way to understand it.
+# Demo with an DT example
+
+---
+
+```python
+DAY     OUTLOOK     TEMP    HUMIDITY    WIND  | PLAY?
+------------------------------------------------------
+1       sunny       hot     high        weak    False
+2       sunny       hot     high        strong  False
+3       overcast    hot     high        weak    True
+4       rain        mild    high        weak    True
+5       rain        cool    normal      weak    True
+6       rain        cool    normal      strong  False
+7       overcast    cool    normal      strong  True
+8       sunny       mild    high        weak    False
+------------------------------------------------------
+9       sunny       cool    high        weak    True
+```
+
+```python
+OUTLOOK = sunny:
+|   HUMIDITY = high:
+|   |   TEMP = hot:     False
+|   |   TEMP = mild:    False
+|   |   TEMP = cool:    True
+|   HUMIDITY = normal:  True
+OUTLOOK = overcast:     True
+OUTLOOK = rain:
+|   WIND = strong:      False
+|   WIND = weak:        True
+```
 
 ---
 ## Cross-Validation
@@ -334,7 +372,8 @@ for node in DT_FULL.nodes:
 ---
 # <!-- fit --> What do we do if data is limited? :thinking:
 # <!-- fit --> `Data-augmentation!!`
-![bg vertical]()
+
+---
 ![bg contain vertical](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
 
 ---
