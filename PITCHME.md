@@ -282,6 +282,8 @@ $$
 $$
 and the **amount of overfittin** is:
 $$
+\delta_{overfit} = \text{error}_{\text{true}}(h) - \text{error}_{\text{train}}(h)
+$$
 
 ---
 ## Cross-Validation
