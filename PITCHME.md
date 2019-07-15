@@ -319,7 +319,7 @@ Hence in this methodology, we say that overfiting happens when $\text{error}_{\t
 - Grow full tree the **post-prune**
 
 ### Reduced Error pruning:
-```python class:"lineNo"
+```python
 TRAIN_SET, VAL_SET, TEST_SET            # defining train/val/test dataset
 DT_FULL                                 # the DT that classifies TRAIN_SET correctly
 
@@ -333,8 +333,10 @@ for node in DT_FULL.nodes:
 
 ---
 # <!-- fit --> What do we do if data is limited? :thinking:
+# <!-- fit --> Data-augmentation !!
 
 ---
+# <!-- fit --> Neural Networks :smiley:
 
 ---
 
