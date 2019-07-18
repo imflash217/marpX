@@ -15,8 +15,6 @@ section {
 }
 </style>
 
-# <!-- fit --> Apologies for continuous delays.
-
 <!---
 ![bg](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/flashSlides.jpg)
 -->
@@ -148,6 +146,10 @@ OUTLOOK = rain:
 # Emergency C-sections risk prediction using DT
 - 1000 medical records
 - Negative examples are C-sections
+
+![bg](blob:https://carbon.now.sh/785545d4-a7c6-4695-b412-0fff5436cbde)
+
+---
 
 ```python
                                         [833+,  167-] 0.83+ 0.17-
