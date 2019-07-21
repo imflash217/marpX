@@ -489,7 +489,7 @@ $$
 ```python
 import numpy as np
 
-def metric_L1(image1: np.ndarray, image2: np.ndarray):
+def metric_L1(image1: np.ndarray, image2: np.ndarray) -> np.int:
     assert image1.shape == image2.shape
     L1_distance = 0
     for i in np.arange(image1.shape[0]):
@@ -500,7 +500,7 @@ def metric_L1(image1: np.ndarray, image2: np.ndarray):
 
 ##----------------------------------------------------------------------------##
 
-def metric_L1_vectorized(image1: np.ndarray, image2: np.ndarray):
+def metric_L1_vectorized(image1: np.ndarray, image2: np.ndarray) -> np.int:
     assert image1.shape == image2.shape
     return np.sum(np.abs(np.add(image1, (-1)*image2)))
 ```
