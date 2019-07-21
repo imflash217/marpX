@@ -554,20 +554,54 @@ Is this a good algorithm? Let's see for `N` train examples:
 Is it desirable property of a good algorithm?
 
 --- 
-# <!-- fit:50% --> :pushpin:
+:pushpin:
 We should design algorithm that behaves like:
 # <!-- fit --> `t_test << t_train`
 
 ---
-<!-- header: k Nearest Neighbor (kNN) -->
+<!-- header: k Nearest Neighbors (kNN) -->
 What if there was a **rogue element** in our training data?
 How will it impact our prediction?
 How can we tackle that?
 Can we eliminate its influence? Can we atleast minimize its influence?
 
 ---
+Let the `data` itself flush-out the **rogue element(s)** via `VOTE`
 
+We call this newer version `k-Nearest-Neighbors` algorithm
 
+```python
+import numpy as np
+
+class KNearestNeighbor:
+    def __init__(self, k):
+        self.k = k
+
+    def train(self, X: np.ndarray, Y: np.ndarray):
+        """
+        X   : np.shape(N, D)   : Each row is an example data (image)
+        Y   : np.shape(N,)     : The labels for each example data
+        """
+        # remember ALL the training data
+
+    def predict(self, X_test) -> np.ndarray:
+        """
+        X_test  : np.shape(N, D): Each row is an example we wish to predict for
+        returns : np.shape(N,)  : Predicted label for each of the N test samples
+        """
+        n_test = X_test.shape[0]
+        Y_pred = np.zeros(n_test, dtype=self.Y_train.dtype)                     # matching the output types of train & test labels
+
+        # finding the nearest training image using the L1 distance
+        for i in np.arange(n_test):
+            distances = np.sum(np.abs(self.X_train - X_test[i, :]), axis=1)     # distances.shape = self.Y_train.shape
+            idxs = np.argpartition(distances, k)
+            knn_labels = self.Y_train[idxs[:k]]
+            unique_knn, count_knn = np.unique(knn_labels, return_counts=True)
+            Y_pred[i] = unique_knn[np.argmax(count_knn)]
+
+        return Y_pred
+```
 ---
 
 ---
