@@ -507,7 +507,40 @@ def metric_L1_vectorized(image1: np.ndarray, image2: np.ndarray) -> np.int:
 ```
 
 ---
+<!-- header: Nearest Neighbors -->
 
+```python
+import numpy as np
+
+class NearestNeighbor:
+    def __init__(self):
+        pass
+
+    def train(self, X: np.ndarray, Y: np.ndarray):
+        """
+        X   : np.shape(N, D)   : Each row is an example data (image)
+        Y   : np.shape(N,)     : The labels for each example data
+        """
+        # remembering the training data
+        self.X_train = X
+        self.Y_train = Y
+
+    def predict(self, X_test) -> np.ndarray:
+        """
+        X_test  : np.shape(N, D): Each row is an example we wish to predict for
+        returns : np.shape(N,)  : Predicted label for each of the N test samples
+        """
+        n_test = X_test.shape[0]
+        Y_pred = np.zeros(n_test, dtype=self.Y_train.dtype)                     # matching the output types of train & test labels
+
+        # finding the nearest training image using the L1 distance
+        for i in np.arange(n_test):
+            distances = np.sum(np.abs(self.X_train - X_test[i, :]), axis=1)     # distances.shape = self.Y_train.shape
+            nn_idx = np.argmin(distances)                                       # nearest neighbor index
+            Y_pred[i] = self.Y_train[nn_idx])                                   # getting the appropriate label
+
+        return Y_pred
+```
 ---
 
 ---
