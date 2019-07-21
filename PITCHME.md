@@ -147,9 +147,6 @@ OUTLOOK = rain:
 - 1000 medical records
 - Negative examples are C-sections
 
-![bg height:50% width:50%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/carbon1.png)
-
----
 ```python
                                         [833+,  167-] 0.83+ 0.17-
 
@@ -378,8 +375,13 @@ for node in DT_FULL.nodes:
 ![bg contain vertical](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
 
 ---
-<!-- header: Neural Networks -->
-# <!-- fit --> Neural Networks :smiley:
+- k-Nearest Neighbors (kNN)
+- Linear Classification & Optimization
+- Backpropagation
+- Neaural Networks
+
+---
+<!-- header: k-Nearest Neighbors -->
 
 ---
 
