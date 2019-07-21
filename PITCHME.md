@@ -405,10 +405,10 @@ task : classify the given-image into one of the given-discrete-labels
 
 ---
 ![bg vertical width:80% height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat1.png)
-![bg width:80% height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat2.png)
-![bg width:80% height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat3.png)
-![bg width:80% height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat4.png)
-![bg width:80% height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat5.png)
+![bg width:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat2.png)
+![bg width:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat3.png)
+![bg width:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat4.png)
+![bg height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat5.png)
 
 ---
 
