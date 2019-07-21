@@ -147,10 +147,7 @@ OUTLOOK = rain:
 - 1000 medical records
 - Negative examples are C-sections
 
-![bg](blob:https://carbon.now.sh/785545d4-a7c6-4695-b412-0fff5436cbde)
-
----
-![bg height:50% width:50%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/carbon1.png)
+![bg right:60% height:50% width:50%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/carbon1.png)
 
 ---
 ```python
