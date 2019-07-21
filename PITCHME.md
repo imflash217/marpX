@@ -465,7 +465,7 @@ But failed terribly due to lack of one very very important part of solution.
 
 ---
 Courtesy to Tim-Berners-Lee's `www.` and enormous increase in number of sensors; now we have `big-data` too.
-## <!-- fit --> DATA
+## <!-- fit --> data
 
 ---
 <!-- header: Data-driven approach -->
