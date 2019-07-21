@@ -554,13 +554,19 @@ Is this a good algorithm? Let's see for `N` train examples:
 Is it desirable property of a good algorithm?
 
 --- 
-# <!-- fit --> :pushpin:
+# <!-- fit:50% --> :pushpin:
 We should design algorithm that behaves like:
 # <!-- fit --> `t_test << t_train`
 
 ---
 <!-- header: k Nearest Neighbor (kNN) -->
-Earlier we 
+What if there was a **rogue element** in our training data?
+How will it impact our prediction?
+How can we tackle that?
+Can we eliminate its influence? Can we atleast minimize its influence?
+
+---
+
 
 ---
 
