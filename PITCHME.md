@@ -498,7 +498,7 @@ def metric_L1(image1: np.ndarray, image2: np.ndarray):
                 L1_distance += np.abs(image1[i,j,k] - image2[i,j,k])
     return L1_distance
 
-#####################
+##----------------------------------------------------------------------------##
 
 import numpy as np
 
@@ -506,6 +506,12 @@ def metric_L1_vectorized(image1: np.ndarray, image2: np.ndarray):
     assert image1.shape == image2.shape
     return np.sum(np.abs(np.add(image1, (-1)*image2)))
 ```
+
+---
+
+---
+
+---
 
 ---
 <!-- header: References -->
