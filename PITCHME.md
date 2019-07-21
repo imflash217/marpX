@@ -372,9 +372,11 @@ for node in DT_FULL.nodes:
 # <!-- fit --> `Data-augmentation!!`
 
 ---
-![bg height:50% width:50%](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
+![bg width:80%](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
 
 ---
+<!-- header: Data-driven approaches -->
+
 - k-Nearest Neighbors (kNN)
 - Linear Classification & Optimization
 - Backpropagation
@@ -412,10 +414,26 @@ for node in DT_FULL.nodes:
 ![bg height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat5.png)
 
 ---
+## And similar problem persists with `text` or `audio` data (infact various forms of data `can you name a few more?`)
 
+```
+What's up?
+What's going on?
+Hey buddy!! what is on!!?
+Yo bro!! what's up!!
+Kya haal-chaal hai bhai?
+Sab thik-thak?
+...
+...
+```
+All these above texts convey more-or-less the same intent. But the wordings are so much different.
+Our algorithm (or neuralNet) must learn to understand that intent (we call it `sentiment` or `emotion` detection).
 
+### Same follows with audio data too..
+Can you name a few scenarios in audio-context?
 
 ---
+
 
 
 ---
