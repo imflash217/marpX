@@ -384,11 +384,12 @@ for node in DT_FULL.nodes:
 
 ---
 <!-- header: The Problem Statement -->
-```python
-given: set of descrete labels
-given: a RGB image (3D-matrix of numbers from 0-256)
-task : classify the given-image into one of the given-discrete-labels
-```
+- Given: 
+    - set of descrete `labels`
+    - a RGB image `(3D-matrix of numbers from 0-256)`
+- Task: 
+    - Classify the given-image into one of the given-discrete-labels
+
 ### Seems straight-forward...Doesn't it? Then what's the big problem?
 
 ---
@@ -401,7 +402,7 @@ task : classify the given-image into one of the given-discrete-labels
 - Occlusion
 - Intraclass variation
 
-# By now, we all should be able to appreciate the `gravity` :worried: of the problem we're trying to solve
+# By now, we all should be able to appreciate the `gravity` :worried: of the problem we're trying to solve.
 
 ---
 ![bg vertical width:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat1.png)
