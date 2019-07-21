@@ -553,9 +553,10 @@ Is this a good algorithm? Let's see for `N` train examples:
 
 Is it desirable property of a good algorithm?
 
----
+--- 
+# <!-- fit --> :pushpin:
 We should design algorithm that behaves like:
-# <!-- fit --> `t_test << t_train` :pushpin:
+# <!-- fit --> `t_test << t_train`
 
 ---
 <!-- header: k Nearest Neighbor (kNN) -->
