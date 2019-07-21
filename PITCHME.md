@@ -384,7 +384,7 @@ for node in DT_FULL.nodes:
 
 ---
 <!-- header: The Problem Statement -->
-```
+```python
 given: set of descrete labels
 given: a RGB image (3D-matrix of numbers from 0-256)
 task : classify the given-image into one of the given-discrete-labels
@@ -392,8 +392,18 @@ task : classify the given-image into one of the given-discrete-labels
 ### Seems straight-forward...Doesn't it? Then what's the big problem?
 
 ---
+# <!-- fit --> Semantic Gap
 
+- Viewpoint variation : `The pixel values (3D-matrix) changes as the camera moves`
+- Background clutter
+- Illumination
+- Deformation
+- Occlusion
+- Intraclass variation
 
+# By now, we all should be able to appreciate the `gravity` :sick: of the problem we're trying to solve
+
+---
 
 
 
