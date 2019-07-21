@@ -404,11 +404,18 @@ task : classify the given-image into one of the given-discrete-labels
 # By now, we all should be able to appreciate the `gravity` :worried: of the problem we're trying to solve
 
 ---
-![bg vertical](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat1.png)
+![bg vertical width:80% height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat1.png)
 ![bg](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat2.png)
 ![bg](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat3.png)
 ![bg](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat4.png)
 ![bg](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat5.png)
+
+---
+
+
+
+---
+
 
 ---
 <!-- header: References -->
