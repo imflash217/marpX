@@ -542,20 +542,20 @@ class NearestNeighbor:
         return Y_pred
 ```
 ---
-Is this a good algorithm? Let's see:
-    - How fast is the `training` process?
-    - How fast is the `test/prediction` process?
+Is this a good algorithm? Let's see for `N` train examples:
+- How fast is the `training` process?
+- How fast is the `test/prediction` process?
 
 ---
 Is this a good algorithm? Let's see for `N` train examples:
-    - How fast is the `training` process?           `O(1)`
-    - How fast is the `test/prediction` process?    `O(N)`
+- How fast is the `training` process?           **`O(1)`**
+- How fast is the `test/prediction` process?    **`O(N)`**
 
 Is it desirable property of a good algorithm?
 
 ---
 We should design algorithm that behaves like:
-# <!-- fit --> `t_test << t_train`
+# <!-- fit --> `t_test << t_train` :important:
 
 
 
