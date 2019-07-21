@@ -457,8 +457,10 @@ But this won't be enough to properly tackle the challenges discussed. How come n
     - `audio` Speaker-specific speech detection wsing GMM, HMM etc
     - `text` Traditional NLP using GMM, HMM, hot-encodings etc.
 
-Engineers have tried to solve these complex problems since 1950s `(Hubel-weisel)` using neural networks :wow:
-but failed terribly due to lack of one very very important part of solution.
+Engineers have tried to solve these complex problems since 1950s using neuralNets :wow:
+- Hubel-weisel's cat experiment
+- Rosenblatt's perceptron
+But failed terribly due to lack of one very very important part of solution.
 # <!-- fit --> DATA
 
 ---
