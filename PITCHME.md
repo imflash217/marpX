@@ -461,6 +461,8 @@ Engineers have tried to solve these complex problems since 1950s using neuralNet
 - Hubel-weisel's cat experiment
 - Rosenblatt's perceptron
 But failed terribly due to lack of one very very important part of solution.
+
+---
 # <!-- fit --> DATA
 
 ---
