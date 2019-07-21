@@ -372,7 +372,7 @@ for node in DT_FULL.nodes:
 # <!-- fit --> `Data-augmentation!!`
 
 ---
-![bg contain vertical](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
+![bg height:50% width:50%](https://bair.berkeley.edu/static/blog/data_aug/basic_aug.png)
 
 ---
 - k-Nearest Neighbors (kNN)
@@ -380,8 +380,16 @@ for node in DT_FULL.nodes:
 - Backpropagation
 - Neaural Networks
 
+## Task: Visual Recognition
+
 ---
-<!-- header: k-Nearest Neighbors -->
+<!-- header: The Problem Statement -->
+```
+given: set of descrete labels
+given: a RGB image (3D-matrix of numbers from 0-256)
+task : classify the given-image into one of the given-discrete-labels
+```
+### Seems straight-forward...Doesn't it? Then what's the big problem?
 
 ---
 
