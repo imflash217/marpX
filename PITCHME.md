@@ -536,8 +536,8 @@ class NearestNeighbor:
         # finding the nearest training image using the L1 distance
         for i in np.arange(n_test):
             distances = np.sum(np.abs(self.X_train - X_test[i, :]), axis=1)     # distances.shape = self.Y_train.shape
-            nn_idx = np.argmin(distances)                                       # nearest neighbor index
-            Y_pred[i] = self.Y_train[nn_idx])                                   # getting the appropriate label
+            nn_idx = np.argmin(distances)                                       # THE nearest neighbor index
+            Y_pred[i] = self.Y_train[nn_idx])                                   # getting THE appropriate label
 
         return Y_pred
 ```
@@ -555,9 +555,11 @@ Is it desirable property of a good algorithm?
 
 ---
 We should design algorithm that behaves like:
-# <!-- fit --> `t_test << t_train` :important:
+# <!-- fit --> `t_test << t_train` :pushpin:
 
-
+---
+<!-- header: k Nearest Neighbor (kNN) -->
+Earlier we 
 
 ---
 
