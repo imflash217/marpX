@@ -414,22 +414,27 @@ for node in DT_FULL.nodes:
 ![bg height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat5.png)
 
 ---
-## And similar problem persists with `text` or `audio` data (infact various forms of data `can you name a few more?`)
+## And similar problem persists with `text` or `audio` data (infact various forms of data)
+## `can you name a few more?`
 
 ```
 What's up?
+What's up dude?
 What's going on?
 Hey buddy!! what is on!!?
-Yo bro!! what's up!!
+Yo bro!! wassup!!
 Kya haal-chaal hai bhai?
 Sab thik-thak?
 ...
 ...
 ```
-All these above texts convey more-or-less the same intent. But the wordings are so much different.
-Our algorithm (or neuralNet) must learn to understand that intent (we call it `sentiment` or `emotion` detection).
 
-### Same follows with audio data too..
+All these above texts convey more-or-less the same intent. 
+But the wordings are so much different.
+Our algorithm (or neuralNet) must learn to understand that intent 
+(we call it `sentiment` or `emotion` detection).
+
+### Same follows with `audio` data too..
 Can you name a few scenarios in audio-context?
 
 ---
