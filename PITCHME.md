@@ -401,7 +401,7 @@ task : classify the given-image into one of the given-discrete-labels
 - Occlusion
 - Intraclass variation
 
-# By now, we all should be able to appreciate the `gravity` :sick: of the problem we're trying to solve
+# By now, we all should be able to appreciate the `gravity` :face-with-thermometer: of the problem we're trying to solve
 
 ---
 
