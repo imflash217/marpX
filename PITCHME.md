@@ -476,7 +476,16 @@ One of the very primary big-data came in the form of `CIFAR10` dataset
 
 https://www.cs.toronto.edu/~kriz/cifar.html
 
+We'll use this dataset for most of our examples. Lets see our 1st `data-driven` approach.
+
+Just like `Entropy` in our Decison Trees, we need a metric to establish relationship within our data?
+
 ---
+<!-- header: Nearest Neighors: L1-distance (manhattan distance) -->
+# L1 distance (manhattan distance)
+$$
+\mathcal{d}_{1}(\mathcal{I}_{1}, \mathcal{I}_{2}) = \sum_{p}\abs{\mathcal{I}^{p}_{1}-\mathcal{I}^{p}_{2}}
+$$
 
 ---
 <!-- header: References -->
