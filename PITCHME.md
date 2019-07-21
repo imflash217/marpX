@@ -451,7 +451,11 @@ But this won't be enough to properly tackle the challenges discussed. How come n
 # <!-- fit --> Any suggestions to tackle this?
 
 ---
-
+- Attempts made:
+    - `image/video` Edge detection
+    - `image/video` Corner detection
+    - `audio` Speaker-specific speech detection wsing GMMs, HMMs etc
+    - `text` Traditional NLP using GMM, HMM, hot-encodings etc.
 
 ---
 <!-- header: References -->
