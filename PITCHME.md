@@ -437,7 +437,20 @@ Our algorithm (or neuralNet) must learn to understand that intent
 Can you name a few scenarios in audio-context?
 
 ---
+<!-- header: Attempts made to tackle this problem -->
+```python
+def classify(input_data):
+    # some magic code
+    # some more magic code
+    # maybe some more :P
+    return class_label
+```
+That's what a traditional engineer will do in 2000s!!
+But this won't be enough to properly tackle the challenges discussed. How come not?
 
+# <!-- fit --> Any suggestions to tackle this?
+
+---
 
 
 ---
