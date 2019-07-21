@@ -595,14 +595,17 @@ class KNearestNeighbor:
         # finding the nearest training image using the L1 distance
         for i in np.arange(n_test):
             distances = np.sum(np.abs(self.X_train - X_test[i, :]), axis=1)     # distances.shape = self.Y_train.shape
-            idxs = np.argpartition(distances, k)                                # finding k-nearest-neighbors
-            knn_labels = self.Y_train[idxs[:k]]
+            idxs = np.argpartition(distances, self.k)                           # finding k-nearest-neighbors
+            knn_labels = self.Y_train[idxs[:self.k]]
             unique_knn, count_knn = np.unique(knn_labels, return_counts=True)   # collecting votes for each of k-nearest-neighbors
             Y_pred[i] = unique_knn[np.argmax(count_knn)]                        # finding THE best label with most votes
 
         return Y_pred
 ```
 ---
+# Demo time:
+
+http://vision.stanford.edu/teaching/cs231n-demos/knn/
 
 ---
 
