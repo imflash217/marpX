@@ -484,8 +484,14 @@ Just like `Entropy` in our Decison Trees, we need a metric to establish relation
 <!-- header: Nearest Neighors: L1-distance (manhattan distance) -->
 # L1 distance (manhattan distance)
 $$
-\mathcal{d}_{1}(\mathcal{I}_{1}, \mathcal{I}_{2}) = \sum_{p}\abs{\mathcal{I}^{p}_{1}-\mathcal{I}^{p}_{2}}
+\mathcal{d}_{1}(\mathcal{I}_{1}, \mathcal{I}_{2}) = \sum_{p}\left|\mathcal{I}^{p}_{1}-\mathcal{I}^{p}_{2}\right|
 $$
+```python
+import numpy as np
+
+def metric_L1(image1, image2):
+    return np.sum(np.abs(image1-image2))
+```
 
 ---
 <!-- header: References -->
