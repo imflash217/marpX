@@ -454,8 +454,16 @@ But this won't be enough to properly tackle the challenges discussed. How come n
 - Attempts made:
     - `image/video` Edge detection
     - `image/video` Corner detection
-    - `audio` Speaker-specific speech detection wsing GMMs, HMMs etc
+    - `audio` Speaker-specific speech detection wsing GMM, HMM etc
     - `text` Traditional NLP using GMM, HMM, hot-encodings etc.
+
+Engineers have tried to solve these complex problems since 1950s `(Hubel-weisel)` using neural networks :wow:
+but failed terribly due to lack of one very very important part of solution.
+# <!-- fit --> DATA
+
+---
+
+---
 
 ---
 <!-- header: References -->
