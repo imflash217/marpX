@@ -414,8 +414,7 @@ for node in DT_FULL.nodes:
 ![bg height:80%](https://raw.githubusercontent.com/vinaykumar2491/marpX/master/assets/cat5.png)
 
 ---
-## And similar problem persists with `text` or `audio` data (infact various forms of data)
-## `can you name a few more?`
+## And similar problem persists with `text` or `audio` data (infact various forms of data) `can you name a few more?`
 
 ```
 What's up?
