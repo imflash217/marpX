@@ -487,6 +487,8 @@ $$
 \mathcal{d}_{1}(\mathcal{I}_{1}, \mathcal{I}_{2}) = \sum_{p}\left|\mathcal{I}^{p}_{1}-\mathcal{I}^{p}_{2}\right|
 $$
 ```python
+import numpy as np
+
 def metric_L1(image1: np.ndarray, image2: np.ndarray):
     assert image1.shape == image2.shape
     L1_distance = 0
@@ -497,6 +499,7 @@ def metric_L1(image1: np.ndarray, image2: np.ndarray):
     return L1_distance
 
 #####################
+
 import numpy as np
 
 def metric_L1_vectorized(image1: np.ndarray, image2: np.ndarray):
