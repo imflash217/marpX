@@ -469,6 +469,12 @@ Courtesy to Tim-Berners-Lee's `www.` and enormous increase in number of sensors;
 
 ---
 <!-- header: Data-driven approach -->
+One of the very primary big-data came in the form of `CIFAR10` dataset
+- 10 classes `(car, airplane, horse, dog, cat ....)`
+- 50000 training images (RGB)
+- 10000 test images (RGB)
+
+https://www.cs.toronto.edu/~kriz/cifar.html
 
 ---
 
