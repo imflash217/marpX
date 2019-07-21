@@ -487,10 +487,21 @@ $$
 \mathcal{d}_{1}(\mathcal{I}_{1}, \mathcal{I}_{2}) = \sum_{p}\left|\mathcal{I}^{p}_{1}-\mathcal{I}^{p}_{2}\right|
 $$
 ```python
+def metric_L1(image1: np.ndarray, image2: np.ndarray):
+    assert image1.shape == image2.shape
+    L1_distance = 0
+    for i in np.arange(image1.shape[0]):
+        for j in np.arange(image1.shape[1]):
+            for k in np.arange(image1.shape[2]):
+                L1_distance += np.abs(image1[i,j,k] - image2[i,j,k])
+    return L1_distance
+
+#####################
 import numpy as np
 
-def metric_L1(image1, image2):
-    return np.sum(np.abs(image1-image2))
+def metric_L1_vectorized(image1: np.ndarray, image2: np.ndarray):
+    assert image1.shape == image2.shape
+    return np.sum(np.abs(np.add(image1, (-1)*image2)))
 ```
 
 ---
