@@ -682,6 +682,14 @@ $$
 \mathcal{L}_i = \sum_{j\neq y_i} max(0, s_j-s_{y_i}+1)
 $$
 
+Example:
+```python
+           cat, bird, auto    LOSS
+x1 (cat) : 3.2, 5.1, -1.7     ...
+x2 (bird): 1.3, 4.9,  2.0     ...
+x3 (auto): 2.2, 2.5, -3.1     ...
+
+```
 
 ---
 <!-- header: References -->
