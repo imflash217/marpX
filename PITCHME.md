@@ -682,6 +682,10 @@ $$
 \mathcal{L}_i = \sum_{j\neq y_i} max(0, s_j-s_{y_i}+1)
 $$
 
+$$
+\mathcal{L} = \frac{1}{N}\sum_{i=1}^{N}\mathcal{L}_{i}
+$$
+
 ```python
 import numpy as np
 def multiclass_svm_loss(scores:np.ndarray, true_class_idx:np.int) -> np.float:
