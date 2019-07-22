@@ -669,6 +669,7 @@ x3 (horse)   :  2.08,  9.85, -8.01,  4.02,  9.89, 8.02, 3.09, -5.37, -9.89, -6.4
 - Geometric Viewpoint:
 
 ---
+# But how do we choose and verify our weight matrix `W`?
 
 ---
 
