@@ -617,13 +617,14 @@ In `kNN` classification, we had 2 hyperparameters:
 - `k` (the number of neighbors to consider for voting)
 
 ---
-<!-- Linear Classification -->
+<!-- header: Parametric v/s Non-parametric approaches -->
 # <!-- fit --> Parametric Approach
 $$
 \mathcal{f}(\mathcal{x}, \mathcal{W})
 $$
 
 ---
+<!-- header: Linear Classification -->
 Coming back to `CIFAR10` dataset:
 Each image is of dimension `(32,32,3)`. We vectorize this image into shape `np.shape(3072)`
 Then,
