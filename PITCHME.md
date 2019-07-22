@@ -683,6 +683,7 @@ $$
 $$
 
 ```python
+import numpy as np
 def multiclass_svm_loss(scores:np.ndarray, true_class_idx:np.int) -> np.float:
     scores_diff = scores - scores[true_class_idx] + 1
     scores_diff[true_class_idx] = 0
@@ -697,6 +698,10 @@ x2 (bird): 1.3, 4.9,  2.0     ...
 x3 (auto): 2.2, 2.5, -3.1     ...
 
 ```
+
+---
+
+---
 
 ---
 <!-- header: References -->
