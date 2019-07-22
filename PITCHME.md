@@ -625,8 +625,23 @@ $$
 
 ---
 Coming back to `CIFAR10` dataset:
-Each image is of dimension `(32,32,3)`. 
-After
+Each image is of dimension `(32,32,3)`. We vectorize this image into shape `np.shape(3072)`
+Then,
+
+$$
+\mathcal{f}(\mathcal{x}, \mathcal{W}) = \mathcal{W}*\mathcal{x} + \mathcal{b}
+$$
+
+```python
+def linear_clasification(x:np.ndarray, W:np.ndarray, b:np.ndarray) -> np.ndarray:
+    """
+    x: np.shape(3072)       : vectorized input image
+    W: np.shape(3072, 10)   : weight matrix
+    b: np.shape(10)         : bias
+    """
+    return np.add(W*x.T, b)
+```
+
 ---
 
 ---
