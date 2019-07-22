@@ -603,11 +603,16 @@ class KNearestNeighbor:
         return Y_pred
 ```
 ---
-# Demo time:
+# Demo:
 
 http://vision.stanford.edu/teaching/cs231n-demos/knn/
 
 ---
+<!-- header: Hyperparameters -->
+# <!-- fit --> Hyperparameters
+In `kNN` classification, we had 2 hyperparameters:
+- distance metric (eg. `L1_distance`)
+- `k` (the number of neighbors to consider for voting)
 
 ---
 <!-- header: References -->
