@@ -641,8 +641,24 @@ def linear_clasification(x:np.ndarray, W:np.ndarray, b:np.ndarray) -> np.ndarray
     """
     return np.add(W.T*x, b)
 ```
+```python
+Weigh Matrix W
+-------------------------------
+1, 23, 0.2, ..., 89, 0, -42
+23, 43, 43, ..., 45, 43, -1
+...         ...,        ...
+...         ...,        ...
+4, -2, 32,  ..., -3, 5, 0.1
+-------------------------------
 
+Input image x
+-------------------------------
+43, 43, 545, ..., 23, 4.1, -3
+```
 ---
+- Algebraic Viewpoint:
+- Visual Viewpoint:
+- Geometric Viewpoint:
 
 ---
 
