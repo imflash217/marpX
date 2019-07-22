@@ -682,6 +682,13 @@ $$
 \mathcal{L}_i = \sum_{j\neq y_i} max(0, s_j-s_{y_i}+1)
 $$
 
+```python
+def multiclass_svm_loss(scores:np.ndarray, true_class_idx:np.int) -> np.float:
+    scores_diff = scores - scores[true_class_idx] + 1
+    scores_diff[true_class_idx] = 0
+    return np.sum(np.max(0, scores_diff))
+```
+
 Example:
 ```python
            cat, bird, auto    LOSS
