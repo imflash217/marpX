@@ -464,8 +464,10 @@ Engineers have tried to solve these complex problems since 1950s using neuralNet
 But failed terribly due to lack of one very very important part of solution.
 
 ---
+
+# <!-- fit --> data
+
 Courtesy to Tim-Berners-Lee's `www.` and enormous increase in number of sensors; now we have `big-data` too.
-## <!-- fit --> data
 
 ---
 <!-- header: Data-driven approach -->
@@ -613,6 +615,25 @@ http://vision.stanford.edu/teaching/cs231n-demos/knn/
 In `kNN` classification, we had 2 hyperparameters:
 - distance metric (eg. `L1_distance`)
 - `k` (the number of neighbors to consider for voting)
+
+---
+<!-- Linear Classification -->
+# <!-- fit --> Parametric Approach
+$$
+\mathcal{f}(\mathcal{x}, \mathcal{W})
+$$
+
+---
+Coming back to `CIFAR10` dataset:
+Each image is of dimension `(32,32,3)`. 
+After
+---
+
+---
+
+---
+
+---
 
 ---
 <!-- header: References -->
