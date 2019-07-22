@@ -639,7 +639,7 @@ def linear_clasification(x:np.ndarray, W:np.ndarray, b:np.ndarray) -> np.ndarray
     W: np.shape(3072, 10)   : weight matrix
     b: np.shape(10)         : bias
     """
-    return np.add(W*x.T, b)
+    return np.add(W.T*x, b)
 ```
 
 ---
