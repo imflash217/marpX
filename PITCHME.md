@@ -704,8 +704,15 @@ x3 (auto): 2.2, 2.5, -3.1     ...
 ```
 
 ---
-
+- What happens to the loss if `x1` score for any class changes a **little bit**?
+- What is the min/max possible loss?
+- What if all `scores` are `-> 0`? What is the loss?
+- What is the sum was over all classes including `scores[true_class_idx]`
+- What if we used `mean` instead of `sum`?
+- What about **`squared hinge loss`**?
+- **Is a particular `W` which yields `total_loss = 0` unique?**
 ---
+# <!-- fit --> Regularization
 
 ---
 <!-- header: References -->
