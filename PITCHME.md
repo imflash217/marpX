@@ -668,12 +668,20 @@ x3 (horse)   :  2.08,  9.85, -8.01,  4.02,  9.89, 8.02, 3.09, -5.37, -9.89, -6.4
 - Visual Viewpoint:
 - Geometric Viewpoint:
 
----
 # But how do we choose and verify our weight matrix `W`?
 
 ---
+<!-- header: Loss function & Optimization techniques -->
+# Define a `loss_function` that quantifies how well the weight matrix `W` can genralize over unseen data.
+
+Can you suggest a `loss_function`?
 
 ---
+# Multiclass SVM loss:
+$$
+\mathcal{L}_i = \sum_{j\neq y_i} max(0, s_j-s_{y_i}+1)
+$$
+
 
 ---
 <!-- header: References -->
